@@ -18,6 +18,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @MicroShedTest
 public class NumberGeneratorRestTest {
 
+    //Obs. To run these tests you need to have docker installed on your computer
+
     @Container
     public static ApplicationContainer app = new ApplicationContainer()
             .withReadinessPath("/")
