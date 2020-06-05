@@ -2,9 +2,9 @@
 
 Changes the minimum allowed random number generation request duration 
 
-**URL** : `/random`
+**URL** : `/requestDuration`
 
- 
+**Example**: `http://127.0.0.1:8080/number-generator/api/requestDuration` 
 
 **Method** : `PUT`
 

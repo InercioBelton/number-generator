@@ -9,7 +9,7 @@ list Includes:
 
 **URL** : `/pending`
 
- 
+**Example**: `http://127.0.0.1:8080/number-generator/api/pending`
 
 **Method** : `GET`
 

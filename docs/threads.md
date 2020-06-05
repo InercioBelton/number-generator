@@ -4,7 +4,7 @@ Changes the size of the Thread-pool used to process the Random Number Requests. 
 
 **URL** : `/threads`
 
- 
+**Example**: `http://127.0.0.1:8080/number-generator/api/threads` 
 
 **Method** : `PUT`
 
@@ -15,8 +15,6 @@ Query param `size`: int
 ## Success Response
 
 **Code** : `200 OK`
-
- 
 
 **Example**
 

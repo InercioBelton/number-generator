@@ -8,7 +8,7 @@ Get system usage statistics:
 
 **URL** : `/stats`
 
- 
+**Example**: `http://127.0.0.1:8080/number-generator/api/stats`  
 
 **Method** : `GET`
 

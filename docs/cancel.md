@@ -4,6 +4,7 @@
 
 **URL** : `/{requestId}/cancel`
 
+**Example**: `http://127.0.0.1:8080/number-generator/api/1d429f39-4aee-4238-a8d9-baa57eb0726e/cancel`
 
 **Method** : `PUT`
 
