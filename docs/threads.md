@@ -22,7 +22,7 @@ Query param `size`: int
 
 {
     "code": 200,
-    "description": "Thread size was successfully changed to 8",
+    "description": "Thread pool size was successfully changed to 8",
     "message": "SUCCESS"
 }
 
