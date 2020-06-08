@@ -24,7 +24,7 @@ Query param `time`: long
 
 {
     "code": 200,
-    "description": "Minimum random number generation request durantion was successfully changed to 35",
+    "description": "Minimum random number generation request duration was successfully changed to 35",
     "message": "SUCCESS"
 }
 
