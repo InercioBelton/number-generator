@@ -110,7 +110,7 @@ public class NumberGeneratorService {
 
     public List<HistoryResponse> getHistory() {
         List<HistoryResponse> historyResponseList = new ArrayList<>();
-        randomNumberRepository.listAll().stream().filter(r -> r.getRequestState().equals("completed")).forEach(randomNumber -> {
+        randomNumberRepository.listAll().stream().filter(r -> r.getRequestState().equals(COMPLETED)).forEach(randomNumber -> {
             historyResponseList.add(new HistoryResponse(randomNumber.getGeneratedNumber(), randomNumber.getFormattedProcessingTime()));
         });
 
